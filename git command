@@ -1,4 +1,4 @@
-git clone XXX.git
+git clone XXX.git // 拉git代码库到本地
 git branch // 查看当前代码分支
 git branch -r // 查看远端分支
 git branch -a // 查看本地和远端所有分支
