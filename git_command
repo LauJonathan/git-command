@@ -4,7 +4,7 @@ git branch -r // 查看远端分支
 git branch -a // 查看本地和远端所有分支
 git checkout -b origin/170801  feature/origin/170801   // 切换分支，将远端命名简化到本地
 更新代码到本地
-git fetch —all
+git fetch --all
 更新代码并合并
 git pull
 
