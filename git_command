@@ -21,6 +21,9 @@ git checkout . // 废弃所有改动文件
 
 git reset --hard HEAD^     // 回退至上一个版本，当出现push时候崩掉到时候，可使用
 git reset --hard 323232323 // 通过git log 回退到指定版本号，当出现push时候崩掉到时候
-
-
 git merge合并分支，先切换到要合并到目标分支，然后合并子分支过来，可能会有冲突，解决冲突后，重新add,然后提交
+
+新建分支：
+切至需要从此分支开辟出来的干分支，然后git branch bugfix/20170830(需要创建的本地分支名字,比如：)，git checkout bugfix/20170830切换至创建的分支后,
+
+git push --set-upstream origin bugfix/20170830，这样远程仓库就有了新的分支了
