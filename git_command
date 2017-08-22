@@ -27,3 +27,7 @@ git merge合并分支，先切换到要合并到目标分支，然后合并子�
 切至需要从此分支开辟出来的干分支，然后git branch bugfix/20170830(需要创建的本地分支名字,比如：)，git checkout bugfix/20170830切换至创建的分支后,
 
 git push --set-upstream origin bugfix/20170830，这样远程仓库就有了新的分支了
+
+删除分支并更新到远程
+git branch -d branchName   // 删除本地分支
+git push origin :branchName // 提交更改更新到远程仓库
